@@ -1,0 +1,86 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+#wrap {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  order: 1;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+.header h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12.5%;
+  height: 142px;
+  background-color: #ff6b57;
+}
+.header nav {
+  width:87.5%; 
+  min-height:80px; 
+  background:#ff6b57; 
+} 
+.slider { 
+  order:2; 
+  width:50%; 
+  background:#3c90be; 
+} 
+.gallery { 
+  order:3; 
+  width:27.083333333333333333333333333333%; 
+  height:440px; 
+  background:#f8de73; 
+} 
+.rankup { 
+  order:4; 
+  width:22.916666666666666666666666666667%; 
+  background:#00d2a5; 
+} 
+.latestpost { 
+  order:5; 
+  width:30%; 
+  background:#9cabe4; 
+} 
+.popularpost { 
+  order:6; 
+  width:30%; 
+  background:#d76817; 
+} 
+.banner { 
+  display:flex; 
+  order:7; 
+  flex-flow:column nowrap; 
+  width:22.916666666666666666666666666667%; 
+} 
+.banner div { 
+  flex:1 1 0; 
+} 
+.banner div.banner1 { 
+  background:#0175bb; 
+} 
+.banner div.banner2 { 
+  background:#1261c9; 
+} 
+.social { 
+  order:8; 
+  width:17.083333333333333333333333333333%; 
+  height:270px; 
+  background:#fe6eda; 
+} 
+.footer { 
+  order:9; 
+  width:100%; 
+  height:94px; 
+  background:#474747; 
+} 
